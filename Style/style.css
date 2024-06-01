@@ -1,0 +1,232 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#logoColor{
+    color: white;
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+#navLink li a{
+    color: white;
+    font-weight: 600;
+    padding: 0px 23px;
+}
+ #navBackground{
+
+    min-height: 100vh;
+    background: url('../Assets/images/cover.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+} 
+#herosection{
+    min-height:80vh;
+  
+}  
+#herosection h1{
+    font-size: 4.5rem;
+    color: #fff;
+}  
+#herosection p{
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+.btn-grad {
+    background-image: linear-gradient(to right, #FF4E50 0%, #F9D423  51%, #FF4E50  100%);
+    margin: 10px;
+    padding: 13px 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 1s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 30px;
+    /* display: block; */
+    border:none;
+  }
+
+  .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 
+  /* Portfilio */
+#myImg{
+height: 150px;
+}
+#introcard{
+    padding: 50px 40px ;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-bottom: 60px;
+}
+.left-text{
+    font-size: 2rem;
+    position: relative;
+}
+.left-text:before {
+    content: '';
+    position: absolute;
+    height: 3px;
+    background-color: #0078ff;
+    width:100px;
+    bottom: -12px;
+}
+
+/*  Service Section */
+
+#serviceHead h3{
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+}
+#serviceHead p{
+    text-align: center;
+    color: #4e4e4e;
+}
+#line-below{
+    width: 40px;
+    height: 5px;
+    background-color: #0078ff;
+    margin: 0 auto;
+}
+#marignSection{
+    margin-bottom: 4rem;
+}
+.icon-cirlce{
+    height: 100px;
+    width: 100px;
+    box-shadow: 0 0 0 10px #0078ff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    font-size: 3rem;
+    margin: 0 auto;
+}
+
+.service-dtail{
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0.4rem 0;
+    color: #4e4e4e;
+}
+.card-custom{
+    background-color: #fff;
+    padding: 2.5rem 1.5rem;
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.card-custom:hover .service-icon .icon-cirlce{
+background-color:#0078ff;
+transition: all 500ms ease;
+color: white;
+box-shadow: 0 0 0 10px rgb(255, 240, 240)
+}
+
+/* Portfilo  */
+.web-content span{
+    font-size:.8rem;
+}
+.web-icon{
+    font-size: 2rem;
+    text-align: end;
+    color: #08d88d;
+}
+.web-info{
+    padding: 2rem 3% 1rem 4%;
+}
+.web-icon a i{
+    color: #08d88d;
+}
+.projectBox{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-bottom: 3rem;
+}
+
+
+/* Footer Contact Area */
+.color-section{
+    background:linear-gradient( rgba(74, 155, 240,0.7) 100%, rgba(0, 0, 0, 0.5)100%),url("../Assets/images/pic2.jpg");
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-attachment: fixed;
+    padding:105px 0px 5px 0px;
+}
+#btn2{
+margin: 0 !important;
+margin-bottom: 20px ;
+}
+.inputs input,textarea{
+  margin-bottom: 1.3rem;
+}
+.icon-font {
+   list-style: none;
+   line-height: 2;
+   padding: 7px;
+
+}
+.icon-font span{
+   color: #0078FF;
+   margin-right: 10px;
+}
+
+.connection-logo{
+    list-style: none;
+}
+.connection-logo li{
+    display: inline-block;
+
+}
+.connection-logo li a{
+    color: #1e1e1e;
+    transition: all 0.5s ease-in-out;
+}
+span.icons-anwsome{
+    text-align: center;
+    display: block;
+    font-size: 1.7rem;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    line-height: 1.4;
+    margin: 0 15px 0 0;
+    box-shadow: 0 0 0 3px #0078ff;
+    transition: all 500ms ease;
+    margin-bottom: 20px;
+}
+span.icons-anwsome:hover{
+
+    background-color:#0078ff;
+    transition: all 500ms ease;
+    color: white;
+    box-shadow: 0 0 0 10px rgb(255, 240, 240)
+}
+
+#box-card{
+    padding: 50px 40px ;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: #fff;
+}
+/* Media Queries */
+
+@media screen and (max-width:576px) {
+    #herosection h1{
+        font-size: 3rem;
+     
+    }  
+    #herosection p{
+        font-size: 1.5rem;
+       
+    }
+    .btn-grad{
+        padding: 10px 20px;
+    }
+}
+
